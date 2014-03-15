@@ -1,0 +1,33 @@
+<%
+top_color ||= nil
+bottom_color ||= nil
+text_color ||= nil
+%>
+
+
+<div class='pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'>
+  <div class='game_badge'
+    style = '
+    <% if top_color %>
+      background-color: <%= top_color %>;
+    <% end %>
+    <% if text_color %>
+      color: <%= text_color %>;
+    <% end %>
+    '>
+    <% if title %>
+      <h3 class='title'><%= title %></h3>
+    <% end %>
+    <div class='authors'
+    style = '
+    <% if bottom_color %>
+      background-color: <%= bottom_color %>;
+    <% end %>
+    '>
+
+      <% authors.each do |author| %>
+        <img class='avatar' src='images/<%= author_image(author) %>' />
+      <% end %>
+    </div>
+  </div>
+</div>
