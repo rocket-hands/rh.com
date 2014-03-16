@@ -1,0 +1,114 @@
+@import "compass"
+
+body
+  text-align: center
+  a
+    text-decoration: none !important
+
+.content
+  padding: 30px
+  text-align: center
+
+.logo
+  margin: 10px auto
+  width: 280px
+  height: 230px
+  background-image: image-url('logo.png')
+  h1
+    display: none
+
+.banner
+  width: 100%
+  background-size: cover
+  background-position: center
+  padding: 1px
+  margin-top: -55px
+
+  h1
+    color: white
+    @include text-shadow(rgba(black, 0.4) 3px 3px 0)
+
+.game-badge
+  width: 300px
+  height: 175px
+  background-color: #444
+  background-size: cover
+  margin: 10px auto
+  position: relative
+  padding-top: 5px
+  @include border-radius(3px)
+  overflow: hidden
+  @include box-shadow(rgba(0, 0, 0, 0.2) 0px 2px 1px 2px )
+
+  a.badge-link
+    position: absolute
+    width: 300px
+    height: 145px
+    top: 0
+    left: 0
+    z-index: 1
+
+  .game-icon
+    margin: 5px
+    width: 100px
+    height: 100px
+
+  .title
+    color: white
+    width: 300px
+    position: absolute
+    bottom: 30px
+
+
+  .badge-footer
+    position: absolute
+    bottom: 0px
+    background-color: #999
+    padding: 0
+    margin: 20px auto 0 auto
+    width: 300px
+    height: 30px
+
+    .icon
+      display: inline-block
+      margin: 1px
+      margin-top: -8px
+      width: 32px
+      height: 32px
+      @include border-radius(4px)
+      @include box-shadow(rgba(0, 0, 0, 0.25) 0px 3px 2px -1px )
+      background-color: white
+
+.footer, .platforms
+  width: 100%
+  height: 100%
+  padding-top: 10px
+  h3
+    margin-top: 0px
+    margin-bottom: 10px
+
+.footer
+  background-color: #eee
+
+.platforms
+  background-color: #ccc
+
+.platform, .credit
+  float: left
+  text-align: left
+  width: 250px
+  p
+    margin: 10px
+  .icon
+    float: left
+
+.big-icons
+  .icon
+    display: inline-block
+    margin: 10px
+    width: 64px
+    height: 64px
+    @include border-radius(6px)
+    @include box-shadow(rgba(0, 0, 0, 0.25) 0px 3px 2px -1px )
+    background-color: white
+

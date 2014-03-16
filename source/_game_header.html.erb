@@ -1,0 +1,22 @@
+<%
+top_color ||= nil
+background ||= nil
+page_background_color ||= nil
+page_text_color ||= nil
+
+%>
+
+
+<div class='banner'
+  style = '
+  <% if top_color %>
+    background-color: <%= top_color %>;
+  <% end %>
+  <% if background %>
+    background-image: url(<%=image_path(background) %>);
+  <% end %>
+  '>
+  <h1><%= title %></h1>
+</div>
+
+
