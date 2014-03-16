@@ -56,7 +56,7 @@ require 'people'
 
 Games.all.each do |game|
   url = Games.path_for(game['title'])
-  proxy "/#{url}", "/game_details.html", :locals => { :game => game }
+  proxy "/#{url}.html", "/game_details.html", :locals => { :game => game }
 end
 
 # Build-specific configuration
