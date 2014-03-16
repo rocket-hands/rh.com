@@ -7,8 +7,7 @@ platforms ||= []
 background ||= nil
 icon ||= nil
 url ||= nil
-path ||= nil
-
+title ||= nil
 %>
 
 
@@ -23,8 +22,8 @@ path ||= nil
       background-image: url(<%=image_path(background) %>);
     <% end %>
     '>
-    <% if path %>
-    <a class='badge-link' href='<%=path%>'><span></span></a>
+    <% if title %>
+    <a class='badge-link' href='<%=Games.path_for(title)%>'><span></span></a>
     <% end %>
 
     <% if icon %>
@@ -46,11 +45,14 @@ path ||= nil
     <% end %>
     '>
       <% authors.reject{|x| !People.icon_for?(x)}.each do |author, _| %><%= image_tag People.avatar_url(author), class: 'icon' %><% end %>
-      <% platforms.each do |icon, url| %>
+      <% platforms.each do |platform| %>
+        <% type = platform['type'] %>
+        <% name = platform['name'] %>
+        <% url = platform['url'] %>
         <% if url %>
           <a href='<%=url%>'>
         <% end %>
-        <%= image_tag "#{icon}.png", class: 'icon' %>
+        <%= image_tag "#{type}.png", class: 'icon' %>
         <% if url %>
         </a>
         <% end %>

@@ -2,6 +2,7 @@ require 'digest'
 
 class People
   def self.all
+    # avatar defaults to gravatar for email
     {
       jack: {
         twitter:  'beetlefeet',
@@ -18,14 +19,17 @@ class People
       },
       dan: {
         twitter:  'rockethandsdan',
+        avatar:   'https://pbs.twimg.com/profile_images/2915432680/1ff23cacb121efa7117d8f9899913964_bigger.jpeg',
         email:    'dadams@rockethands.com',
       },
       simon: {
-        twitter:  'FACEPOCALYPSE',
+        twitter:  'sboxle',
+        avatar:   'https://pbs.twimg.com/profile_images/1268047876/selfSFsquaretwitter_bigger.jpg',
         email:    'sb@simonboxer.com',
       },
       brad: {
         twitter:  'paradroid001',
+        avatar:   'https://pbs.twimg.com/profile_images/3304727068/dc38d0113390bc8f5e5e027c6a2bd34a_bigger.png',
         email:    'brad@rockethands.com',
       },
     }
@@ -38,7 +42,7 @@ class People
   end
 
   def self.icon_for?(person)
-    return !self.all[person].nil?
+    return !self.all[person.to_sym].nil?
   end
 
   def self.avatar_url(person)

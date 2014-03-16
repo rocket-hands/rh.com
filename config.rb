@@ -55,8 +55,7 @@ require 'games'
 require 'people'
 
 Games.all.each do |game|
-  url = game[:title].tr(' ', '').underscore.downcase
-  game[:path] = url
+  url = Games.path_for(game['title'])
   proxy "/#{url}", "/game_details.html", :locals => { :game => game }
 end
 
