@@ -45,8 +45,6 @@ url ||= nil
     <% end %>
     '>
       <% authors.reject{|x| !People.icon_for?(x)}.each do |author, _| %><%= image_tag People.avatar_url(author), class: 'mini-icon' %><% end %>
-      <div class='separator'></div>
-
       <% platforms.each do |icon, url| %>
         <% if url %>
           <a href='<%=url%>'>

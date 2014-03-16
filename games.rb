@@ -1,6 +1,6 @@
 class Games
-  def self.dwarf_squad
-    all.select{ |x| x[:title] == "Dwarf Squad" }.first
+  def self.find(name)
+    all.select{ |x| x[:title] == name }.first
   end
 
   def self.all
