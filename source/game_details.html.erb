@@ -5,7 +5,7 @@ title: Rockethands.com
 <% if (game ||= nil) %>
 
   <%= partial :game_header, locals: game %>
-  <div class='content'>
+  <div class='content details'>
     <%= partial Games.path_for(game['title']), locals: game rescue nil%>
   </div>
   <%= partial :game_platforms, locals: game %>
