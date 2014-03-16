@@ -2,26 +2,10 @@
 title: Rockethands.com
 ---
 
-<div class='header'>
-  <div class='logo'>
-    <h1>Rockethands</h1>
-  </div>
-</div>
-<hr />
-
 <div class='content'>
   <div class="pure-g">
-    <%= partial :game_badge,
-      :locals => {
-        :authors => ['jason', 'jack', 'rob'],
-        :title => "Dwarf Squad",
-        :top_color => "#933",
-        :bottom_color => "#ee4",
-        :text_color => "white" } %>
-
-    <%= partial :game_badge,
-      :locals => {
-        :authors => ['jack'],
-        :title => "Sojourn" } %>
+    <% Games.all.each do |game| %>
+      <%= partial :game_badge, locals: game %>
+    <% end %>
   </div>
 </div>

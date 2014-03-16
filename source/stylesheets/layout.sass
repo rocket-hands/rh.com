@@ -7,36 +7,62 @@ body
   margin: 10px auto
   width: 280px
   height: 230px
-  background-image: url(/images/logo.png)
+  background-image: image-url('logo.png')
   h1
     display: none
 
-.game_badge
+.game-badge
   width: 300px
+  height: 175px
   background-color: #444
-  color: white
+  background-size: cover
   margin: 10px auto
   position: relative
   padding-top: 5px
-
-  h3
-    margin-top: 10px
-    margin-bottom: 15px
-
   @include border-radius(10px)
   overflow: hidden
-  .authors
+
+  a.badge-link
+    position: absolute
+    width: 300px
+    height: 145px
+    top: 0
+    left: 0
+    z-index: 1
+
+  .game-icon
+    margin: 5px
+    width: 100px
+    height: 100px
+
+  .title
+    color: white
+    width: 300px
+    position: absolute
+    bottom: 30px
+
+  .badge-footer
+    position: absolute
+    bottom: 0px
     background-color: #999
     padding: 0
     margin: 20px auto 0 auto
+    width: 300px
     height: 30px
 
-    .avatar
+    .mini-icon
       display: inline-block
-      margin: 5px
+      margin: 1px
       margin-top: -8px
       width: 32px
       height: 32px
       @include border-radius(4px)
       @include box-shadow(rgba(0, 0, 0, 0.25) 0px 3px 2px -1px )
+
+    .separator
+      display: inline-block
+      margin: 1px
+      margin-top: -8px
+      width: 8px
+      height: 32px
 

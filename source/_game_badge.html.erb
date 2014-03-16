@@ -2,32 +2,61 @@
 top_color ||= nil
 bottom_color ||= nil
 text_color ||= nil
+authors ||= []
+platforms ||= []
+background ||= nil
+icon ||= nil
+url ||= nil
+
 %>
 
 
 <div class='pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'>
-  <div class='game_badge'
+
+
+  <div class='game-badge'
     style = '
     <% if top_color %>
       background-color: <%= top_color %>;
-    <% end %>
-    <% if text_color %>
-      color: <%= text_color %>;
+      background-image: url(<%=image_path(background) %>);
     <% end %>
     '>
-    <% if title %>
-      <h3 class='title'><%= title %></h3>
+
+    <% if url %>
+      <a class='badge-link' href='<%=url%>'><span></span></a>
     <% end %>
-    <div class='authors'
+
+    <% if icon %>
+      <%= image_tag icon, :class => "game-icon" %>
+    <% end %>
+
+    <% if title %>
+      <p class='title'
+      <% if text_color %>
+        style='color: <%= text_color %>;'
+      <% end %>
+      ><%= title %></p>
+    <% end %>
+
+    <div class='badge-footer'
     style = '
     <% if bottom_color %>
       background-color: <%= bottom_color %>;
     <% end %>
     '>
+      <% authors.reject{|x| !People.icon_for?(x)}.each do |author, _| %><%= image_tag People.avatar_url(author), class: 'mini-icon' %><% end %>
+      <div class='separator'></div>
 
-      <% authors.each do |author| %>
-        <img class='avatar' src='images/<%= author_image(author) %>' />
+      <% platforms.each do |icon, url| %>
+        <% if url %>
+          <a href='<%=url%>'>
+        <% end %>
+        <%= image_tag "#{icon}.png", class: 'mini-icon' %>
+        <% if url %>
+        </a>
+        <% end %>
       <% end %>
     </div>
   </div>
+
 </div>
