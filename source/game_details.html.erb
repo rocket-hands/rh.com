@@ -1,9 +1,0 @@
----
-title: Rockethands.com
----
-<%= partial :game_header, locals: game %>
-<div class='content'>
-  <%= partial Games.path_for(game['title']), locals: game rescue nil%>
-</div>
-<%= partial :game_platforms, locals: game %>
-<%= partial :game_credits, locals: game %>
