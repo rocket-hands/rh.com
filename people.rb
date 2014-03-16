@@ -32,6 +32,11 @@ class People
         avatar:   'https://pbs.twimg.com/profile_images/3304727068/dc38d0113390bc8f5e5e027c6a2bd34a_bigger.png',
         email:    'brad@rockethands.com',
       },
+      aladar: {
+        twitter:  'aladarapponyi',
+        avatar:   'https://pbs.twimg.com/profile_images/1928929887/avadar_240_normal_bigger.png',
+        email:    'aladayapponyi@gmail.com',
+      },
     }
   end
 

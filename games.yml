@@ -1,21 +1,31 @@
 games:
-  - title: Dwarf Squad
+
+  - title: Laggy Dash
     authors:
-      jack: Art, Code, Design
-      jason:    Code, Design
-      rob:      Code, Design
-      dan:      Code
-      brad:     Code
-      aladar:   Art
-      richard:  Sound, Music
+      jason: Code, Design
+      aladar: Art
     platforms:
       - type: web
-        name: In browser
-        url: http://dwarfsquad.com/
-    text_color:    white
-    top_color:     '#933'
-    bottom_color:  '#ee4'
-    background:    dwarf_squad_badge.jpg
+        name: Playable in browser
+        url: http://laggydash.com
+
+    top_color: '#333'
+    background: laggydash.jpg
+    bottom_color: '#001432'
+    text_color: white
+
+  - title: Shark Cull
+    authors:
+      rob: Code, Design, Art
+    platforms:
+      - type: web
+        name: Playable in browser
+        url: http://bit.ly/sharkcull
+
+    top_color: '#333'
+    background: sharkcull.png
+    bottom_color: '#e5d059'
+    text_color: white
 
   - title: Sojourn
     authors:
@@ -27,14 +37,32 @@ games:
 
     top_color: '#333'
     background: sojourn_badge.jpg
-    bottom_color: '#555'
+    bottom_color: '#002783'
     text_color: white
+
+  - title: Dwarf Squad
+    authors:
+      jack: Art, Code, Design
+      jason:    Code, Design
+      rob:      Code, Design
+      dan:      Code
+      brad:     Code
+      aladar:   Art
+      richard:  Sound, Music
+    platforms:
+      - type: web
+        name: Playable in browser
+        url: http://dwarfsquad.com/
+    text_color:    white
+    top_color:     '#933'
+    bottom_color:  '#ee4'
+    background:    dwarf_squad_badge.jpg
 
   - title: Rocketfuse
     icon: rocketfuse_icon.png
     authors:
-      jack: Code, Art
-      rob: Code
+      jack: Code, Design, Art
+      rob: Code, Design
       dan: Music
       simon: Art
     platforms:
