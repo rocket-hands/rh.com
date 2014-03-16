@@ -54,6 +54,12 @@ set :images_dir, 'images'
 require 'games'
 require 'people'
 
+Games.all.each do |game|
+  url = game[:title].tr(' ', '').underscore.downcase
+  game[:path] = url
+  proxy "/#{url}", "/game_details.html", :locals => { :game => game }
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

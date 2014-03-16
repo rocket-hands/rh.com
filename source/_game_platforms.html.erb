@@ -1,0 +1,17 @@
+<%
+platforms ||= []
+%>
+
+<div class='big-icons platforms'>
+  <h3>Play now:</h3>
+  <% platforms.each do |platform, name_url| %>
+  <% name, url = name_url %>
+  <div class='platform'>
+    <a href='<%=url%>'>
+      <%= image_tag "#{platform}.png", class: 'icon' %>
+      <p><%= name %></p>
+    </a>
+  </div>
+  <% end %>
+  <div style='clear: both;'> </div>
+</div>

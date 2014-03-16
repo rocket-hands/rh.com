@@ -7,23 +7,24 @@ platforms ||= []
 background ||= nil
 icon ||= nil
 url ||= nil
+path ||= nil
 
 %>
 
 
 <div class='pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'>
 
-
   <div class='game-badge'
     style = '
     <% if top_color %>
       background-color: <%= top_color %>;
+    <% end %>
+    <% if background %>
       background-image: url(<%=image_path(background) %>);
     <% end %>
     '>
-
-    <% if url %>
-      <a class='badge-link' href='<%=url%>'><span></span></a>
+    <% if path %>
+    <a class='badge-link' href='<%=path%>'><span></span></a>
     <% end %>
 
     <% if icon %>
@@ -44,12 +45,12 @@ url ||= nil
       background-color: <%= bottom_color %>;
     <% end %>
     '>
-      <% authors.reject{|x| !People.icon_for?(x)}.each do |author, _| %><%= image_tag People.avatar_url(author), class: 'mini-icon' %><% end %>
+      <% authors.reject{|x| !People.icon_for?(x)}.each do |author, _| %><%= image_tag People.avatar_url(author), class: 'icon' %><% end %>
       <% platforms.each do |icon, url| %>
         <% if url %>
           <a href='<%=url%>'>
         <% end %>
-        <%= image_tag "#{icon}.png", class: 'mini-icon' %>
+        <%= image_tag "#{icon}.png", class: 'icon' %>
         <% if url %>
         </a>
         <% end %>

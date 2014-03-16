@@ -2,6 +2,12 @@
 
 body
   text-align: center
+  a
+    text-decoration: none !important
+
+.content
+  padding: 30px
+  text-align: center
 
 .logo
   margin: 10px auto
@@ -10,6 +16,17 @@ body
   background-image: image-url('logo.png')
   h1
     display: none
+
+.banner
+  width: 100%
+  background-size: cover
+  background-position: center
+  padding: 1px
+  margin-top: -55px
+
+  h1
+    color: white
+    @include text-shadow(rgba(black, 0.4) 3px 3px 0)
 
 .game-badge
   width: 300px
@@ -41,6 +58,7 @@ body
     position: absolute
     bottom: 30px
 
+
   .badge-footer
     position: absolute
     bottom: 0px
@@ -50,7 +68,7 @@ body
     width: 300px
     height: 30px
 
-    .mini-icon
+    .icon
       display: inline-block
       margin: 1px
       margin-top: -8px
@@ -59,10 +77,35 @@ body
       @include border-radius(4px)
       @include box-shadow(rgba(0, 0, 0, 0.25) 0px 3px 2px -1px )
 
-    .separator
-      display: inline-block
-      margin: 1px
-      margin-top: -8px
-      width: 8px
-      height: 32px
+.footer, .platforms
+  width: 100%
+  height: 100%
+  padding-top: 10px
+  h3
+    margin-top: 0px
+    margin-bottom: 10px
+
+.footer
+  background-color: #eee
+
+.platforms
+  background-color: #ccc
+
+.platform, .credit
+  float: left
+  text-align: left
+  width: 250px
+  p
+    margin: 10px
+  .icon
+    float: left
+
+.big-icons
+  .icon
+    display: inline-block
+    margin: 10px
+    width: 64px
+    height: 64px
+    @include border-radius(4px)
+    @include box-shadow(rgba(0, 0, 0, 0.25) 0px 3px 2px -1px )
 
