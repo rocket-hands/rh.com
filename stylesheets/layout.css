@@ -9,30 +9,35 @@ body {
 .content {
   padding: 30px;
   text-align: center; }
+  /* line 12, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  .content.details {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left; }
 
-/* line 12, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 17, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .logo {
   margin: 10px auto;
   width: 280px;
   height: 230px;
   background-image: url("../images/logo.png"); }
-  /* line 17, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 22, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .logo h1 {
     display: none; }
 
-/* line 20, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 25, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .banner {
   width: 100%;
   background-size: cover;
   background-position: center;
   padding: 1px;
   margin-top: -55px; }
-  /* line 27, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 32, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .banner h1 {
     color: white;
     text-shadow: rgba(0, 0, 0, 0.4) 3px 3px 0; }
 
-/* line 31, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 36, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .game-badge {
   width: 300px;
   height: 175px;
@@ -50,7 +55,7 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px 2px;
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px 2px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px 2px; }
-  /* line 43, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 48, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .game-badge a.badge-link {
     position: absolute;
     width: 300px;
@@ -58,18 +63,18 @@ body {
     top: 0;
     left: 0;
     z-index: 1; }
-  /* line 51, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 56, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .game-badge .game-icon {
     margin: 5px;
     width: 100px;
     height: 100px; }
-  /* line 56, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 61, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .game-badge .title {
     color: white;
     width: 300px;
     position: absolute;
     bottom: 30px; }
-  /* line 63, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 68, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .game-badge .badge-footer {
     position: absolute;
     bottom: 0px;
@@ -78,7 +83,7 @@ body {
     margin: 20px auto 0 auto;
     width: 300px;
     height: 30px; }
-    /* line 72, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+    /* line 77, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
     .game-badge .badge-footer .icon {
       display: inline-block;
       margin: 1px;
@@ -95,37 +100,37 @@ body {
       box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 2px -1px;
       background-color: white; }
 
-/* line 82, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 87, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .footer, .platforms {
   width: 100%;
   height: 100%;
   padding-top: 10px; }
-  /* line 86, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 91, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .footer h3, .platforms h3 {
     margin-top: 0px;
     margin-bottom: 10px; }
 
-/* line 90, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 95, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .footer {
   background-color: #eeeeee; }
 
-/* line 93, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 98, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .platforms {
   background-color: #cccccc; }
 
-/* line 96, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 101, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .platform, .credit {
   float: left;
   text-align: left;
   width: 250px; }
-  /* line 100, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 105, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .platform p, .credit p {
     margin: 10px; }
-  /* line 102, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+  /* line 107, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
   .platform .icon, .credit .icon {
     float: left; }
 
-/* line 106, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
+/* line 111, /Users/jack/projects/rh.com/source/stylesheets/layout.sass */
 .big-icons .icon {
   display: inline-block;
   margin: 10px;
