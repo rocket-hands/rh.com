@@ -72,3 +72,17 @@ games:
     top_color: '#242458'
     bottom_color: '#f19002'
     text_color: white
+
+  - title: Hacktile
+    authors:
+      jack: Code, Design, Art
+      jason: Code, Design
+      rob: Code, Design
+    platforms:
+      - type: flash
+        name: Playable in browser
+        url: http://hacktile.net
+    top_color: '#F33'
+    background: hacktile.png
+    bottom_color: '#8312C4'
+    text_color: white
