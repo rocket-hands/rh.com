@@ -1,5 +1,21 @@
 games:
 
+  - title: Video Spirit
+    authors:
+      jack: Code, Design, Art
+    platforms:
+      - type: unity
+        name: Unity web player
+        url: https://dl.dropboxusercontent.com/u/327811/1gam/VideoSpirit/VideoSpirit.html
+      - type: android
+        name: Android APK
+        url: https://dl.dropboxusercontent.com/u/327811/1gam/VideoSpirit/videospirit.apk
+
+    top_color: '#333'
+    background: videospirit.jpg
+    bottom_color: '#f44'
+    text_color: white
+
   - title: Laggy Dash
     authors:
       jason: Code, Design
