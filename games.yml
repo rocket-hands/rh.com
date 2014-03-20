@@ -5,7 +5,7 @@ games:
       jack: Code, Design, Art
     platforms:
       - type: github
-        name: Open source on github
+        name: Opensource on github
         url: http://github.com/jackcasey/videospirit
       - type: unity
         name: Unity web player
