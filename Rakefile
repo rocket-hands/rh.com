@@ -1,3 +1,3 @@
-require 'middleman-gh-pages'
+require 'middleman-deploy'
 
-task :default => [:publish]
+task :default => [:build, :deploy]

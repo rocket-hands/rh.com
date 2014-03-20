@@ -9,4 +9,4 @@ gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-imageoptim", "~> 0.1.4"
 
 # deploy
-gem 'middleman-gh-pages'
+gem 'middleman-deploy'
