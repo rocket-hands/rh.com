@@ -59,6 +59,12 @@ Games.all.each do |game|
   proxy "/#{url}.html", "/game_details.html", :locals => { :game => game }
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.remote = "orgsite"
+  deploy.branch = "master"
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
