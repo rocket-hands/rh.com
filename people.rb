@@ -37,6 +37,11 @@ class People
         avatar:   'https://pbs.twimg.com/profile_images/1928929887/avadar_240_normal_bigger.png',
         email:    'aladayapponyi@gmail.com',
       },
+      anthony: {
+        twitter: 'quaverr',
+        avatar:  'https://pbs.twimg.com/profile_images/277853882/boston_bigger.jpg',
+        email:   'anthony@handwrittengames.com'
+      }
     }
   end
 

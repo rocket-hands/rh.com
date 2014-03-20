@@ -4,6 +4,9 @@ games:
     authors:
       jack: Code, Design, Art
     platforms:
+      - type: github
+        name: Open source on github
+        url: http://github.com/jackcasey/videospirit
       - type: unity
         name: Unity web player
         url: https://dl.dropboxusercontent.com/u/327811/1gam/VideoSpirit/VideoSpirit.html
@@ -79,7 +82,7 @@ games:
     authors:
       jack: Code, Design, Art
       rob: Code, Design
-      dan: Music
+      anthony: Music
       simon: Art
     platforms:
       - type: ios

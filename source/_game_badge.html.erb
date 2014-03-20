@@ -49,13 +49,7 @@ title ||= nil
         <% type = platform['type'] %>
         <% name = platform['name'] %>
         <% url = platform['url'] %>
-        <% if url %>
-          <a href='<%=url%>'>
-        <% end %>
         <%= image_tag "#{type}.png", class: 'icon' %>
-        <% if url %>
-        </a>
-        <% end %>
       <% end %>
     </div>
   </div>
