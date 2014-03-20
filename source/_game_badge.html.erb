@@ -44,13 +44,14 @@ title ||= nil
       background-color: <%= bottom_color %>;
     <% end %>
     '>
-      <% authors.reject{|x| !People.icon_for?(x)}.each do |author, _| %><%= image_tag People.avatar_url(author), class: 'icon' %><% end %>
-      <% platforms.each do |platform| %>
-        <% type = platform['type'] %>
-        <% name = platform['name'] %>
-        <% url = platform['url'] %>
-        <%= image_tag "#{type}.png", class: 'icon' %>
-      <% end %>
+      <%= authors.reject{|x| !People.icon_for?(x)}.map do |author, _|
+        image_tag People.avatar_url(author), class: 'icon'
+      end.join %>
+
+      <%= platforms.map do |platform|
+        image_tag "#{platform['type']}.png", class: 'icon'
+      end.join %>
+
     </div>
   </div>
 
