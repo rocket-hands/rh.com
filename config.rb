@@ -59,11 +59,21 @@ Games.all.each do |game|
   proxy "/#{url}.html", "/game_details.html", :locals => { :game => game }
 end
 
-activate :deploy do |deploy|
-  deploy.method = :git
-  deploy.remote = "orgsite"
-  deploy.branch = "master"
+case ENV['TARGET'].to_s.downcase
+when 'production'
+  activate :deploy do |deploy|
+    deploy.method = :git
+    deploy.remote = "git@github.com:rocket-hands/rocket-hands.github.io.git"
+    deploy.branch = "master"
+  end
+else
+  activate :deploy do |deploy|
+    deploy.method = :git
+    deploy.remote = "origin"
+    deploy.branch = "gh-pages"
+  end
 end
+
 
 # Build-specific configuration
 configure :build do
