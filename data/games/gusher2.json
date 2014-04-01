@@ -9,7 +9,9 @@
     }
   },
   "platforms": {
-    "flash": {}
+    "flash": {
+      "url": "/gusher2.html"
+    }
   },
   "top_color": "#F33",
   "background": "gusher2.png",
