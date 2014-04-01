@@ -9,7 +9,10 @@
     }
   },
   "platforms": {
-    "windows": {}
+    "windows": {},
+    "github": {
+      "url": "https://github.com/jasonhutchens/thrust_harder"
+    }
   },
   "top_color": "#F33",
   "background": "thrust_harder.png",

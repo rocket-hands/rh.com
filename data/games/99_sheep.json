@@ -12,7 +12,10 @@
     }
   },
   "platforms": {
-    "windows": {}
+    "windows": {},
+    "github": {
+      "url": "https://github.com/jasonhutchens/99sheep"
+    }
   },
   "top_color": "#F33",
   "background": "99_sheep.png",

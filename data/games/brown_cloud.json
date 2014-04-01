@@ -15,7 +15,10 @@
     }
   },
   "platforms": {
-    "windows": {}
+    "windows": {},
+    "github": {
+      "url": "https://github.com/jasonhutchens/brown_cloud"
+    }
   },
   "top_color": "#F33",
   "background": "brown_cloud.png",
