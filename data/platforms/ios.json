@@ -1,4 +1,5 @@
 {
   "name": "iOS",
-  "icon": "ios.png"
+  "icon": "ios.png",
+  "description": "Visit App Store"
 }

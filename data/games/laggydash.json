@@ -1,21 +1,18 @@
 {
   "name": "Laggy Dash",
-  "people": [
-    {
-      "id": "jason",
+  "people": {
+    "jason": {
       "roles": ["code", "design"]
     },
-    {
-      "id": "aladar",
+    "aladar": {
       "roles": ["art"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "web",
+  },
+  "platforms": {
+    "web": {
       "url": "http://laggydash.com"
     }
-  ],
+  },
   "top_color": "#333",
   "background": "laggydash.jpg",
   "bottom_color": "#001432",

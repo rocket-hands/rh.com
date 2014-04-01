@@ -1,17 +1,15 @@
 {
   "name": "Sojourn",
-  "people": [
-    {
-      "id": "jack",
+  "people": {
+    "jack": {
       "roles": ["art", "code", "design"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "unity",
+  },
+  "platforms": {
+    "unity": {
       "url": "https://dl.dropboxusercontent.com/u/327811/1gam/Sojourn/Sojourn.html"
     }
-  ],
+  },
   "top_color": "#333",
   "background": "sojourn_badge.jpg",
   "bottom_color": "#002783",

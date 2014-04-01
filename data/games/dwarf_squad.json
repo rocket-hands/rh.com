@@ -1,41 +1,33 @@
 {
   "name": "Dwarf Squad",
-  "people": [
-    {
-      "id": "jack",
+  "people": {
+    "jack": {
       "roles": ["art", "code", "design"]
     },
-    {
-      "id": "jason",
+    "jason": {
       "roles": ["code", "design"]
     },
-    {
-      "id": "rob",
+    "rob": {
       "roles": ["code", "design"]
     },
-    {
-      "id": "dan",
+    "dan": {
       "roles": ["code"]
     },
-    {
-      "id": "brad",
+    "brad": {
       "roles": ["code"]
     },
-    {
-      "id": "aladar",
+    "aladar": {
       "roles": ["art"]
     },
-    {
-      "id": "richard",
+    "richard": {
       "roles": ["music"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "web",
+  },
+  "platforms": {
+    "web": {
       "url": "http://dwarfsquad.com/"
     }
-  ],
+  },
   "top_color": "#933",
   "background": "dwarf_squad_badge.jpg",
   "bottom_color": "#ee4",

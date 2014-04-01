@@ -1,20 +1,16 @@
 {
   "name": "Bogus Quest",
-  "people": [
-    {
-      "id": "jason",
+  "people": {
+    "jason": {
       "roles": ["Design", "Code"]
     },
-    {
-      "id": "simon",
+    "simon": {
       "roles": ["Art"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "flash"
-    }
-  ],
+  },
+  "platforms": {
+    "flash": {}
+  },
   "top_color": "#F33",
   "background": "bogus_quest.png",
   "bottom_color": "#8312C4",

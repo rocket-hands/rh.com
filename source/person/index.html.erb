@@ -1,0 +1,33 @@
+<%
+  @title = person.nick
+  games = data.games.select { |_, game| game.people.has_key?(id.to_s) }
+%>
+
+<div class="banner" style="background-color: black;">
+  <h1><%= person.nick %></h1>
+</div>
+
+<div class='content details'>
+  <%= partial("person/#{id}", locals: { person: person, id: id }) rescue lorem.paragraph %>
+</div>
+
+<h2>TODO</h2>
+
+<ul>
+  <li>show twitter link if available</li>
+  <li>show email link if available</li>
+  <li>show website link if available</li>
+  <li>show blog link if available</li>
+  <li>show github link if available</li>
+  <li>show linkedin link if available</li>
+</ul>
+
+<h2>Games</h2>
+
+<div class='content'>
+  <div class="pure-g">
+    <% games.each do |id, game| %>
+      <%= partial(:game_badge, locals: { id: id, game: game }) %>
+    <% end %>
+  </div>
+</div>

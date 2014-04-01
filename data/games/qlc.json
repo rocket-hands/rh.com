@@ -1,16 +1,13 @@
 {
   "name": "Quantum Light Cycles",
-  "people": [
-    {
-      "id": "jason",
+  "people": {
+    "jason": {
       "roles": ["code", "design"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "ruby"
-    }
-  ],
+  },
+  "platforms": {
+    "ruby": {}
+  },
   "top_color": "x",
   "background": "x",
   "bottom_color": "x",

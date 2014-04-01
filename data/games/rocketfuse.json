@@ -1,30 +1,25 @@
 {
   "name": "Rocketfuse",
   "icon": "rocketfuse_icon.png",
-  "people": [
-    {
-      "id": "jack",
+  "people": {
+    "jack": {
       "roles": ["art", "code", "design"]
     },
-    {
-      "id": "rob",
+    "rob": {
       "roles": ["code", "design"]
     },
-    {
-      "id": "dan",
+    "anthony": {
       "roles": ["music"]
     },
-    {
-      "id": "simon",
+    "simon": {
       "roles": ["art"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "ios",
+  },
+  "platforms": {
+    "ios": {
       "url": "http://itunes.com/apps/rocketfuse"
     }
-  ],
+  },
   "top_color": "#242458",
   "bottom_color": "#f19002",
   "text_color": "white"

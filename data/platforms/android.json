@@ -1,4 +1,5 @@
 {
   "name": "Android",
-  "icon": "android.png"
+  "icon": "android.png",
+  "description": "Android APK"
 }

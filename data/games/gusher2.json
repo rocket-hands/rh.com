@@ -1,20 +1,16 @@
 {
   "name": "Gusher II",
-  "people": [
-    {
-      "id": "jason",
+  "people": {
+    "jason": {
       "roles": ["code", "design"]
     },
-    {
-      "id": "simon",
+    "simon": {
       "roles": ["art"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "flash"
-    }
-  ],
+  },
+  "platforms": {
+    "flash": {}
+  },
   "top_color": "#F33",
   "background": "gusher2.png",
   "bottom_color": "#8312C4",

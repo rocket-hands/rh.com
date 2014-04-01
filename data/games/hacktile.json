@@ -1,25 +1,21 @@
 {
   "name": "Hacktile",
-  "people": [
-    {
-      "id": "jack",
+  "people": {
+    "jack": {
       "roles": ["art", "code", "design"]
     },
-    {
-      "id": "jason",
+    "jason": {
       "roles": ["code", "design"]
     },
-    {
-      "id": "rob",
+    "rob": {
       "roles": ["code", "design"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "flash",
+  },
+  "platforms": {
+    "flash": {
       "url": "http://hacktile.net"
     }
-  ],
+  },
   "top_color": "#F33",
   "background": "hacktile.png",
   "bottom_color": "#8312C4",

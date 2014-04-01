@@ -7,6 +7,17 @@ set :images_dir, 'images'
 set :markdown_engine, :redcarpet
 set :markdown, { fenced_code_blocks: true, smartypants: true }
 
+data.games.each do |id, game|
+  proxy("/game/#{id}.html", "/game/index.html", :locals => { id: id, game: game })
+end
+
+data.people.each do |id, person|
+  proxy("/person/#{person.nick.downcase}.html", "/person/index.html", :locals => { id: id, person: person})
+end
+
+ignore "/game/index.html"
+ignore "/person/index.html"
+
 case ENV['TARGET'].to_s.downcase
 when 'production'
   activate :deploy do |deploy|

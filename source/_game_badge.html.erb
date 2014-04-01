@@ -13,20 +13,22 @@
 <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
   <div class="game-badge" style="<%= badge_style %>">
 
+    <a class="badge-link" href="/game/<%= id %>.html"><span></span></a>
+
     <% if game.icon? %>
       <%= image_tag(game.icon, class: "game-icon") %>
     <% end %>
 
     <% if game.name? %>
-      <p class="title" style="<%= title_style %>"><%= game.name %></p>ß
+      <p class="title" style="<%= title_style %>"><%= game.name %></p>
     <% end %>
 
     <div class="badge-footer" style="<%= footer_style %>">
-      <% game.people.each do |person| %>
-        <%= image_tag(data.people[person.id].avatar, class: "icon") %>
+      <% game.people.each do |id, person| %>
+        <%= image_tag(data.people[id].avatar, class: "icon") %>
       <% end %>
-      <% game.platforms.each do |platform| %>
-        <% platform_image = image_tag(data.platforms[platform.id].icon, class: "icon") %>
+      <% game.platforms.each do |id, platform| %>
+        <% platform_image = image_tag(data.platforms[id].icon, class: "icon") %>
         <% if platform.url? %>
           <a href="<%= platform.url %>"><%= platform_image %></a>
         <% else %>

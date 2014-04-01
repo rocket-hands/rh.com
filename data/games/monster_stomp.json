@@ -1,16 +1,13 @@
 {
   "name": "Tag Team Monster Stomp",
-  "people": [
-    {
-      "id": "jason",
+  "people": {
+    "jason": {
       "roles": ["code", "design"]
     }
-  ],
-  "platforms": [
-    {
-      "id": "ruby"
-    }
-  ],
+  },
+  "platforms": {
+    "ruby": {}
+  },
   "top_color": "#F33",
   "background": "monster_stomp.png",
   "bottom_color": "#8312C4",
