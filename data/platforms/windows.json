@@ -1,4 +1,5 @@
 {
   "name": "Windows",
-  "icon": "windows.png"
+  "icon": "windows.png",
+  "description": "Download"
 }

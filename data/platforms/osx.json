@@ -1,4 +1,5 @@
 {
   "name": "OSX",
-  "icon": "osx.png"
+  "icon": "osx.png",
+  "description": "Download"
 }

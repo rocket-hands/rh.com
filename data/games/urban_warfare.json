@@ -1,0 +1,17 @@
+{
+  "name": "Urban Warfare",
+  "people": {
+    "jason": {
+      "roles": ["art", "code", "design"]
+    }
+  },
+  "platforms": {
+    "web": {
+      "url": "http://laggydash.com"
+    }
+  },
+  "top_color": "#333",
+  "background": "urban_warfare.png",
+  "bottom_color": "#001432",
+  "text_color": "white"
+}

@@ -1,10 +1,10 @@
 {
-  "name": "Laggy Dash",
+  "name": "Rock Vomit",
   "people": {
     "jason": {
       "roles": ["code", "design"]
     },
-    "aladar": {
+    "simon": {
       "roles": ["art"]
     }
   },
@@ -13,11 +13,11 @@
       "url": "http://laggydash.com"
     },
     "github": {
-      "url": "https://github.com/jasonhutchens/laggy-dash"
+      "url": "https://github.com/jasonhutchens/rock-vomit"
     }
   },
   "top_color": "#333",
-  "background": "laggydash.jpg",
+  "background": "rock_vomit.png",
   "bottom_color": "#001432",
   "text_color": "white"
 }

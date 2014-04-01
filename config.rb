@@ -21,6 +21,7 @@ ignore "/person/index.html"
 page "/bogus_quest.html", layout: "flash"
 page "/gusher2.html", layout: "flash"
 page "/hacktile.html", layout: "flash"
+page "/doctor_squad.html", layout: "flash"
 
 case ENV['TARGET'].to_s.downcase
 when 'production'

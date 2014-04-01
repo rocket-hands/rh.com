@@ -26,6 +26,9 @@
   "platforms": {
     "web": {
       "url": "http://dwarfsquad.com/"
+    },
+    "github": {
+      "url": "https://github.com/ggj14/dwarf-squad"
     }
   },
   "top_color": "#933",
