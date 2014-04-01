@@ -1,0 +1,107 @@
+games:
+
+  - title: Video Spirit
+    authors:
+      jack: Code, Design, Art
+    platforms:
+      - type: github
+        name: Source available on github
+        url: http://github.com/jackcasey/videospirit
+      - type: unity
+        name: Unity web player
+        url: https://dl.dropboxusercontent.com/u/327811/1gam/VideoSpirit/VideoSpirit.html
+      - type: android
+        name: Android APK
+        url: https://dl.dropboxusercontent.com/u/327811/1gam/VideoSpirit/videospirit.apk
+
+    top_color: '#333'
+    background: videospirit.jpg
+    bottom_color: '#f44'
+    text_color: white
+
+  - title: Laggy Dash
+    authors:
+      jason: Code, Design
+      aladar: Art
+    platforms:
+      - type: web
+        name: Playable in browser
+        url: http://laggydash.com
+
+    top_color: '#333'
+    background: laggydash.jpg
+    bottom_color: '#001432'
+    text_color: white
+
+  - title: Shark Cull
+    authors:
+      rob: Code, Design, Art
+    platforms:
+      - type: web
+        name: Playable in browser
+        url: http://bit.ly/sharkcull
+
+    top_color: '#333'
+    background: sharkcull.png
+    bottom_color: '#e5d059'
+    text_color: white
+
+  - title: Sojourn
+    authors:
+      jack: Code, Design, Art
+    platforms:
+      - type: unity
+        name: Unity web player
+        url: https://dl.dropboxusercontent.com/u/327811/1gam/Sojourn/Sojourn.html
+
+    top_color: '#333'
+    background: sojourn_badge.jpg
+    bottom_color: '#002783'
+    text_color: white
+
+  - title: Dwarf Squad
+    authors:
+      jack: Art, Code, Design
+      jason:    Code, Design
+      rob:      Code, Design
+      dan:      Code
+      brad:     Code
+      aladar:   Art
+      richard:  Sound, Music
+    platforms:
+      - type: web
+        name: Playable in browser
+        url: http://dwarfsquad.com/
+    text_color:    white
+    top_color:     '#933'
+    bottom_color:  '#ee4'
+    background:    dwarf_squad_badge.jpg
+
+  - title: Rocketfuse
+    icon: rocketfuse_icon.png
+    authors:
+      jack: Code, Design, Art
+      rob: Code, Design
+      anthony: Music
+      simon: Art
+    platforms:
+      - type: ios
+        name: iPhone
+        url: http://itunes.com/apps/rocketfuse
+    top_color: '#242458'
+    bottom_color: '#f19002'
+    text_color: white
+
+  - title: Hacktile
+    authors:
+      jack: Code, Design, Art
+      jason: Code, Design
+      rob: Code, Design
+    platforms:
+      - type: flash
+        name: Playable in browser
+        url: http://hacktile.net
+    top_color: '#F33'
+    background: hacktile.png
+    bottom_color: '#8312C4'
+    text_color: white

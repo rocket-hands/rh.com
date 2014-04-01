@@ -3,8 +3,8 @@ authors ||= []
 page_footer_color ||= nil
 %>
 
+<h3 class='footer-headings'>Contributors</h3>
 <div class='big-icons footer'>
-  <h3>Contributors:</h3>
   <% authors.reject{|x| !People.icon_for?(x)}.each do |author, credit| %>
   <div class='credit'>
     <a href='http://www.twitter.com/<%= People.twitter(author) %>'>
