@@ -11,3 +11,5 @@ aim and shoot. You can drive a land vehicle, or board a spacecraft to fly
 around. A little economy based on ore, destructive objects, HP and XP all over
 the shop, updrades and levelling, a drive to explore, a rescue mission to find
 all colonists.
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/rTroTxcltlo?rel=0" frameborder="0" allowfullscreen></iframe>
