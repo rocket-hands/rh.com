@@ -1,0 +1,22 @@
+{
+  "name": "Doctor Squad, M.D.",
+  "people": [
+    {
+      "id": "jason",
+      "roles": ["design", "code"]
+    },
+    {
+      "id": "rich",
+      "roles": ["art"]
+    }
+  ],
+  "platforms": [
+    {
+      "id": "windows"
+    }
+  ],
+  "top_color": "#F33",
+  "background": "doctor_squad.png",
+  "bottom_color": "#8312C4",
+  "text_color": "white"
+}

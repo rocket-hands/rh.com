@@ -1,0 +1,22 @@
+{
+  "name": "Thrust Harder",
+  "people": [
+    {
+      "id": "jason",
+      "roles": ["code", "design"]
+    },
+    {
+      "id": "aladar",
+      "roles": ["art"]
+    }
+  ],
+  "platforms": [
+    {
+      "id": "windows"
+    }
+  ],
+  "top_color": "#F33",
+  "background": "thrust_harder.png",
+  "bottom_color": "#8312C4",
+  "text_color": "white"
+}

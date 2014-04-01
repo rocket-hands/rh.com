@@ -1,0 +1,43 @@
+{
+  "name": "Dwarf Squad",
+  "people": [
+    {
+      "id": "jack",
+      "roles": ["art", "code", "design"]
+    },
+    {
+      "id": "jason",
+      "roles": ["code", "design"]
+    },
+    {
+      "id": "rob",
+      "roles": ["code", "design"]
+    },
+    {
+      "id": "dan",
+      "roles": ["code"]
+    },
+    {
+      "id": "brad",
+      "roles": ["code"]
+    },
+    {
+      "id": "aladar",
+      "roles": ["art"]
+    },
+    {
+      "id": "richard",
+      "roles": ["music"]
+    }
+  ],
+  "platforms": [
+    {
+      "id": "web",
+      "url": "http://dwarfsquad.com/"
+    }
+  ],
+  "top_color": "#933",
+  "background": "dwarf_squad_badge.jpg",
+  "bottom_color": "#ee4",
+  "text_color": "white"
+}

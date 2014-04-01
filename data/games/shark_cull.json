@@ -1,0 +1,19 @@
+{
+  "name": "Shark Cull",
+  "people": [
+    {
+      "id": "rob",
+      "roles": ["art", "code", "design"]
+    }
+  ],
+  "platforms": [
+    {
+      "id": "web",
+      "url": "http://bit.ly/sharkcull"
+    }
+  ],
+  "top_color": "#333",
+  "background": "sharkcull.png",
+  "bottom_color": "#e5d059",
+  "text_color": "white"
+}

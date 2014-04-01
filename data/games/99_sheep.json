@@ -1,0 +1,26 @@
+{
+  "name": "99 Sheep",
+  "people": [
+    {
+      "id": "jason",
+      "roles": ["design", "code"]
+    },
+    {
+      "id": "aladar",
+      "roles": ["art"]
+    },
+    {
+      "id": "dan",
+      "roles": ["music"]
+    }
+  ],
+  "platforms": [
+    {
+      "id": "windows"
+    }
+  ],
+  "top_color": "#F33",
+  "background": "99_sheep.png",
+  "bottom_color": "#8312C4",
+  "text_color": "white"
+}

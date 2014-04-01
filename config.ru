@@ -1,5 +1,3 @@
-# get middleman working with Pow (ref: https://github.com/middleman/middleman/pull/560)
-
 require 'rubygems'
 require 'bundler'
 Bundler.setup
