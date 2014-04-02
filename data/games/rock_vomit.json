@@ -1,0 +1,24 @@
+{
+  "name": "Rock Vomit",
+  "people": {
+    "jason": {
+      "roles": ["code", "design"]
+    },
+    "simon": {
+      "roles": ["art"]
+    }
+  },
+  "platforms": {
+    "web": {
+      "url": "http://laggydash.com"
+    },
+    "github": {
+      "url": "https://github.com/jasonhutchens/rock-vomit"
+    }
+  },
+  "top_color": "#333",
+  "background": "rock_vomit.png",
+  "bottom_color": "#001432",
+  "text_color": "white",
+  "date": "2014-04-04"
+}

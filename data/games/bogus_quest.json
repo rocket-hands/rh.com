@@ -1,0 +1,21 @@
+{
+  "name": "Bogus Quest",
+  "people": {
+    "jason": {
+      "roles": ["design", "code"]
+    },
+    "simon": {
+      "roles": ["art"]
+    }
+  },
+  "platforms": {
+    "flash": {
+      "url": "/bogus_quest.html"
+    }
+  },
+  "top_color": "#F33",
+  "background": "bogus_quest.jpg",
+  "bottom_color": "#8312C4",
+  "text_color": "white",
+  "date": "2010-01-01"
+}

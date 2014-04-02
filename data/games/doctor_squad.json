@@ -1,0 +1,37 @@
+{
+  "name": "Doctor Squad, M.D.",
+  "people": {
+    "jason": {
+      "roles": ["design", "code"]
+    },
+    "rob": {
+      "roles": ["design", "code"]
+    },
+    "jack": {
+      "roles": ["design", "code"]
+    },
+    "brad": {
+      "roles": ["design", "code"]
+    },
+    "rich": {
+      "roles": ["art"]
+    }
+  },
+  "platforms": {
+    "flash": {
+      "url": "/doctor_squad.html"
+    },
+    "android": {},
+    "ios": {},
+    "osx": {},
+    "windows": {},
+    "github": {
+      "url": "https://github.com/jasonhutchens/DoctorSquad_MD"
+    }
+  },
+  "top_color": "#F33",
+  "background": "doctor_squad.png",
+  "bottom_color": "#8312C4",
+  "text_color": "white",
+  "date": "2013-01-26"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Rocketfuse",
+  "icon": "rocketfuse_icon.png",
+  "people": {
+    "jack": {
+      "roles": ["art", "code", "design"]
+    },
+    "rob": {
+      "roles": ["code", "design"]
+    },
+    "anthony": {
+      "roles": ["music"]
+    },
+    "simon": {
+      "roles": ["art"]
+    }
+  },
+  "platforms": {
+    "ios": {
+      "url": "http://itunes.com/apps/rocketfuse"
+    }
+  },
+  "top_color": "#242458",
+  "bottom_color": "#f19002",
+  "text_color": "white",
+  "date": "2010-01-01"
+}

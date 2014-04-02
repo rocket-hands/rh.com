@@ -1,0 +1,19 @@
+{
+  "name": "Urban Warfare",
+  "people": {
+    "jason": {
+      "roles": ["art", "code", "design"]
+    }
+  },
+  "platforms": {
+    "windows": {},
+    "github": {
+      "url": "https://github.com/jasonhutchens/urban_warfare"
+    }
+  },
+  "top_color": "#333",
+  "background": "urban_warfare.png",
+  "bottom_color": "#001432",
+  "text_color": "white",
+  "date": "2008-01-01"
+}

@@ -1,58 +1,41 @@
 <%
-top_color ||= nil
-bottom_color ||= nil
-text_color ||= nil
-authors ||= []
-platforms ||= []
-background ||= nil
-icon ||= nil
-url ||= nil
-title ||= nil
+  badge_style = ""
+  badge_style << "background-color: #{game.top_color};" if game.top_color?
+  badge_style << "background-image: url(#{image_path(game.background)});" if game.background?
+
+  title_style = ""
+  title_style << "color: #{game.text_color}" if game.text_color?
+
+  footer_style = ""
+  footer_style << "background-color: #{game.bottom_color}" if game.bottom_color?
 %>
 
+<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+  <div class="game-badge" style="<%= badge_style %>">
 
-<div class='pure-u-1 pure-u-md-1-2 pure-u-lg-1-3'>
+    <a class="badge-link" href="/game/<%= id %>.html"><span></span></a>
 
-  <div class='game-badge'
-    style = '
-    <% if top_color %>
-      background-color: <%= top_color %>;
-    <% end %>
-    <% if background %>
-      background-image: url(<%=image_path(background) %>);
-    <% end %>
-    '>
-    <% if title %>
-    <a class='badge-link' href='<%=Games.path_for(title)%>.html'><span></span></a>
+    <% if game.icon? %>
+      <%= image_tag(game.icon, class: "game-icon") %>
     <% end %>
 
-    <% if icon %>
-      <%= image_tag icon, :class => "game-icon" %>
+    <% if game.name? %>
+      <p class="title" style="<%= title_style %>"><%= game.name %></p>
     <% end %>
 
-    <% if title %>
-      <p class='title'
-      <% if text_color %>
-        style='color: <%= text_color %>;'
+    <div class="badge-footer" style="<%= footer_style %>">
+      <% game.people.each do |id, person| %>
+        <%= image_tag(data.people[id].avatar, class: "icon") %>
       <% end %>
-      ><%= title %></p>
-    <% end %>
-
-    <div class='badge-footer'
-    style = '
-    <% if bottom_color %>
-      background-color: <%= bottom_color %>;
-    <% end %>
-    '>
-      <%= authors.reject{|x| !People.icon_for?(x)}.map do |author, _|
-        image_tag People.avatar_url(author), class: 'icon'
-      end.join %>
-
-      <%= platforms.map do |platform|
-        image_tag "#{platform['type']}.png", class: 'icon'
-      end.join %>
-
+      <% game.platforms.each do |id, platform| %>
+        <% platform_image = image_tag(data.platforms[id].icon, class: "icon") %>
+        <% if platform.url? %>
+          <a href="<%= platform.url %>"><%= platform_image %></a>
+        <% else %>
+          <%= platform_image %>
+        <% end %>
+      <% end %>
     </div>
-  </div>
 
+  </div>
 </div>

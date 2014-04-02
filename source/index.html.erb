@@ -1,11 +1,19 @@
----
-title: Rockethands.com
----
+;;;
+"title": "RocketHands"
+;;;
+
+<%
+  games =
+    data.games.sort do |l, r|
+      Date.parse(r[1].date) <=> Date.parse(l[1].date)
+    end
+  games = Hash[games]
+%>
 
 <div class='content'>
   <div class="pure-g">
-    <% Games.all.each do |game| %>
-      <%= partial :game_badge, locals: game %>
+    <% games.each do |id, game| %>
+      <%= partial(:game_badge, locals: { id: id, game: game }) %>
     <% end %>
   </div>
 </div>

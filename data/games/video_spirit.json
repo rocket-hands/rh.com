@@ -1,0 +1,24 @@
+{
+  "name": "Video Spirit",
+  "people": {
+    "jack": {
+      "roles": ["art", "code", "design"]
+    }
+  },
+  "platforms": {
+    "github": {
+      "url": "http://github.com/jackcasey/videospirit"
+    },
+    "android": {
+      "url": "https://dl.dropboxusercontent.com/u/327811/1gam/VideoSpirit/videospirit.apk"
+    },
+    "unity": {
+      "url": "https://dl.dropboxusercontent.com/u/327811/1gam/VideoSpirit/VideoSpirit.html"
+    }
+  },
+  "top_color": "#333",
+  "background": "videospirit.jpg",
+  "bottom_color": "#f44",
+  "text_color": "white",
+  "date": "2014-04-01"
+}

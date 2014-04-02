@@ -1,0 +1,12 @@
+<%
+  @title = game.name
+%>
+
+<%= partial(:game_header, locals: { game: game, id: id }) %>
+
+<div class='content details'>
+  <%= partial("game/#{id}", locals: { game: game, id: id }) rescue lorem.paragraph %>
+</div>
+
+<%= partial(:game_platforms, locals: { platforms: game.platforms }) %>
+<%= partial(:game_credits, locals: { people: game.people }) %>

@@ -1,0 +1,16 @@
+{
+  "name": "Quantum Light Cycles",
+  "people": {
+    "jason": {
+      "roles": ["code", "design"]
+    }
+  },
+  "platforms": {
+    "ruby": {}
+  },
+  "top_color": "x",
+  "background": "qlc.gif",
+  "bottom_color": "x",
+  "text_color": "x",
+  "date": "2005-01-01"
+}

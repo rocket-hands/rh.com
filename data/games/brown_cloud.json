@@ -1,0 +1,28 @@
+{
+  "name": "Brown Cloud",
+  "people": {
+    "jason": {
+      "roles": ["code", "design"]
+    },
+    "rob": {
+      "roles": ["code", "design"]
+    },
+    "nigel": {
+      "roles": ["code", "design"]
+    },
+    "simon": {
+      "roles": ["art"]
+    }
+  },
+  "platforms": {
+    "windows": {},
+    "github": {
+      "url": "https://github.com/jasonhutchens/brown_cloud"
+    }
+  },
+  "top_color": "#F33",
+  "background": "browncloud.jpg",
+  "bottom_color": "#8312C4",
+  "text_color": "white",
+  "date": "2009-01-26"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Halogen",
+  "people": {
+    "brad": {
+      "roles": ["art", "code", "design"]
+    }
+  },
+  "platforms": {
+    "ios": {}
+  },
+  "top_color": "#333",
+  "background": "halogen.png",
+  "bottom_color": "#002783",
+  "text_color": "white",
+  "date": "2012-06-06"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Thrust Harder",
+  "people": {
+    "jason": {
+      "roles": ["code", "design"]
+    },
+    "aladar": {
+      "roles": ["art"]
+    }
+  },
+  "platforms": {
+    "windows": {},
+    "github": {
+      "url": "https://github.com/jasonhutchens/thrust_harder"
+    }
+  },
+  "top_color": "#F33",
+  "background": "thrust_harder.jpeg",
+  "bottom_color": "#8312C4",
+  "text_color": "white",
+  "date": "2008-01-01"
+}

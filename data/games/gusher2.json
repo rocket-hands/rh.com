@@ -1,0 +1,21 @@
+{
+  "name": "Gusher II",
+  "people": {
+    "jason": {
+      "roles": ["code", "design"]
+    },
+    "simon": {
+      "roles": ["art"]
+    }
+  },
+  "platforms": {
+    "flash": {
+      "url": "/gusher2.html"
+    }
+  },
+  "top_color": "#F33",
+  "background": "gusher.png",
+  "bottom_color": "#8312C4",
+  "text_color": "white",
+  "date": "2011-01-01"
+}

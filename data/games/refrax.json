@@ -1,0 +1,24 @@
+{
+  "name": "R E F R A X",
+  "people": {
+    "jason": {
+      "roles": ["code", "design"]
+    }
+  },
+  "platforms": {
+    "windows": {
+      "url": "http://sourceforge.net/projects/refrax/files/refrax/1.0/refrax.zip/download"
+    },
+    "osx": {
+      "url": "http://sourceforge.net/projects/refrax/files/refrax/1.0/refrax.dmg/download"
+    },
+    "github": {
+      "url": "https://github.com/jasonhutchens/refrax"
+    }
+  },
+  "top_color": "red",
+  "background": "refrax.png",
+  "bottom_color": "yellow",
+  "text_color": "white",
+  "date": "2003-01-01"
+}
