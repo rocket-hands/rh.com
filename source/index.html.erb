@@ -5,11 +5,7 @@
 <%
   games =
     data.games.sort do |l, r|
-      if r[1].year == l[1].year
-        [-1, 0, 1].sample
-      else
-        r[1].year <=> l[1].year
-      end
+      Date.parse(r[1].date) <=> Date.parse(l[1].date)
     end
   games = Hash[games]
 %>
