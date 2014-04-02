@@ -2,9 +2,21 @@
 "title": "RocketHands"
 ;;;
 
+<%
+  games =
+    data.games.sort do |l, r|
+      if r[1].year == l[1].year
+        [-1, 0, 1].sample
+      else
+        r[1].year <=> l[1].year
+      end
+    end
+  games = Hash[games]
+%>
+
 <div class='content'>
   <div class="pure-g">
-    <% data.games.each do |id, game| %>
+    <% games.each do |id, game| %>
       <%= partial(:game_badge, locals: { id: id, game: game }) %>
     <% end %>
   </div>
