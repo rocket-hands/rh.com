@@ -3,7 +3,7 @@ QUANTUM LIGHT CYCLES
 
 An entry to the one-key / one-switch comp on Retro Remakes.
 
-By Jason Hutchens (JasonHutchens@gmail.com).
+By Kranzky (kranzky@rockethands.com).
 
 INSTALLATION
 ------------
