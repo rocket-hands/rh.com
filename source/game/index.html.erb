@@ -5,7 +5,7 @@
 <%= partial(:game_header, locals: { game: game, id: id }) %>
 
 <div class='content details'>
-  <%= partial("game/#{id}", locals: { game: game, id: id }) rescue lorem.paragraph %>
+  <%= partial("game/#{id}", locals: { game: game, id: id }) rescue game.description %>
 </div>
 
 <%= partial(:game_platforms, locals: { platforms: game.platforms }) %>

@@ -7,10 +7,14 @@
 <div class="big-icons platforms">
   <% platforms.each do |id, platform| %>
     <div class="platform">
+      <% if platform.url %>
       <a href="<%= platform.url %>">
         <%= image_tag(data.platforms[id].icon, class: "icon") %>
         <p style="margin-top:15px;"><%= data.platforms[id].description %></p>
       </a>
+      <% else %>
+        <%= image_tag(data.platforms[id].icon, class: "icon") %>
+      <% end %>
     </div>
   <% end %>
   <div style="clear: both;"> </div>

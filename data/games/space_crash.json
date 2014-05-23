@@ -3,10 +3,22 @@
   "people": {
     "jack": {
       "roles": ["art", "code", "design"]
+    },
+    "simon": {
+      "roles": ["art"]
+    },
+    "rob": {
+      "roles": ["code"]
+    },
+    "dan": {
+      "roles": ["music"]
     }
+
   },
   "platforms": {
-    "ios": {}
+    "ios": {
+      "url": "https://itunes.apple.com/us/app/space-crash/id332538040?mt=8"
+    }
   },
   "top_color": "#333",
   "background": "space_crash.jpg",
