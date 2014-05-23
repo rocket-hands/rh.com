@@ -1,0 +1,24 @@
+{
+  "name": "Dive",
+  "people": {
+    "jack": {
+      "roles": ["code", "design", "art"]
+    }
+  },
+  "platforms": {
+    "unity": {
+      "url": "https://dl.dropboxusercontent.com/u/327811/1gam/Dive/Dive.html"
+    },
+    "android": {
+      "url": "https://dl.dropboxusercontent.com/u/327811/1gam/Dive/Dive.apk"
+    },
+    "github": {
+      "url": "https://github.com/jackcasey/dive"
+    }
+  },
+  "top_color": "#333",
+  "background": "dive.png",
+  "bottom_color": "#000055",
+  "text_color": "white",
+  "date": "2014-05-23"
+}
